@@ -35,11 +35,11 @@ const questions = [
     ],
   },
   {
-    question: "whats my age",
+    question: "how old am I?",
     answers: [
-      { Text: "25", correct: true },
+      { Text: "old enough", correct: true },
+      { Text: "66", correct: false },
       { Text: "12", correct: false },
-      { Text: "33", correct: false },
     ],
   },
   {
@@ -141,7 +141,7 @@ function showQuestion(question) {
     seconds = -1;
     questionElement.innerText = "good job. your score is: " + score;
     countdownElement.innerHTML =
-      "I just want you to know that this is my first ever web application. And I started working on it only one day before the submission because of an important exam I had. I wish if you consider this. And I also want to say that I enjoyed building this app.";
+      "Hello there, I just want to let you know that I don't have any previous experience in web development; still, I had fun building my first web application. It's important for me to let you know that I worked on this project for one day only for two reasons. First, I had an important exam two days before the submission. Secondly, I thought that the submission date was April 12. Still, I really enjoyed working on it and I hope to get another chance to prove myself and what I am capable of. thanks :)";
     return;
   }
 
